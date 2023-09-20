@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	int k = 0;
+    k =_printf("%S\n", "Best\nSchool");
+    printf("%d", k);
+    return (0);
+}

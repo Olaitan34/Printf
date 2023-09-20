@@ -1,0 +1,24 @@
+#include "main.h"
+int main(void)
+{
+    char a = '7';
+    char c = '8';
+    char b = '9';
+    int d;
+    int len, len2;
+    d = _printf("this are my numbers: %c, %c, %c\n", a, c, b);
+    printf("%d\n", d);
+
+    len = _printf("Let's try to printf a simple sentence.\n");
+     len2 = printf("Let's try to printf a simple sentence.\n");
+    _printf("String: [%s]\n", "I am a string !");
+    printf("String:[%s]\n", "I am a string !");
+    len = _printf("Percent:[%%]\n");
+    _printf("Len:[%d]\n", len);
+    printf("d:[%d]\n", d);
+        _printf("Negative:[%d]\n", -762534);
+    _printf("Negative:[%i]\n", -762534, 0);
+        _printf("Length:[%d, %i]\n", len, len);
+    printf("Length:[%d, %i]\n", len2, len2);
+    return (0);
+}
