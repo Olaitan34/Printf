@@ -20,7 +20,7 @@ void _puts(char *str);
 typedef struct checker
 {
     char *id;
-    int (*func)(va_list);
+    int (*func)();
 } check_match;
 
 int putstrng(va_list list);
